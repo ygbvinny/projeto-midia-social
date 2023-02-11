@@ -1,0 +1,43 @@
+ordem de montagem do projeto social:
+
+
+Criar uma pagina html parada cada rede social
+	youtube, github, twitter, facebook e home
+
+
+Em cada html vai ter o caminho de imagem, que será utilizado os prints
+seguido de uma atribuiçao do link do perfil designado.
+
+
+dentro do main, havera 2 sections.
+
+	1 vai ser a tela do iphone
+	1 irá concertrar as redes sociais
+
+
+o index do html será basicamente formado só por isso, atribuiçao das logos sociais.
+
+
+Detalhe:
+	o modelo do celular, vai ser importado 	pelo css utilizando o backgrou-url
+	
+	e o background do site tbm vai ser 	importado pelo css utilizando o 	background-url
+
+
+
+Comandos utilizados para determeinar tamanho de vizualização da imagem:
+
+
+	::-webkit-scrollbar:
+( serve pra tirar as barras de scroll )
+
+
+	100vh ( viewport height )
+	100vw width ( viewport width )
+
+
+Para os prints, tem que ser: 
+	
+	100vw ( 100% de vizualização da largura)
+	
+Pois como a imagem é baseada em altura, o iframe ira mostrar literalmente 100% da viewport da largura, sendo assim o print vai ficar de um lado ao outro de forma correta.
